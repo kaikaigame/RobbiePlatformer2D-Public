@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    static GameManager instance;//当前静态实例，可被调用
+    //当前静态实例，可被调用
+    static GameManager instance;
 
     SceneFader fader;
 
@@ -23,7 +25,8 @@ public class GameManager : MonoBehaviour
     {
         if (instance != null)
         {
-            Destroy(gameObject);//把第二个以上的都销毁，避免重复
+            //把第二个以上的都销毁，避免重复
+            Destroy(gameObject);
             return;
         }
 
@@ -116,7 +119,11 @@ public class GameManager : MonoBehaviour
 
     public void QuitGame()//退出游戏
     {
-        Application.Quit();
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+		Application.Quit();
+#endif
     }
 
     //public void GoToMainMenu()//回主菜单

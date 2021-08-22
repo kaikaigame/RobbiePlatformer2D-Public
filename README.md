@@ -6,8 +6,11 @@ Not available for commercial use.
 Free opensource from Unity  
 https://www.youtube.com/playlist?list=PLX2vGYjWbI0REfhDHPpdIBjjrzDHDP-xT  
   
-Download the assets to follow along using Unity 2018.3.1f1: https://on.unity.com/3gXhpF8  
-Assets belong to the developers of Robbie Swifthand and the Orb of Mysteries  
+Download the assets from  
+https://on.unity.com/3gXhpF8  
+  
+Assets belong to the developers of  
+Robbie Swifthand and the Orb of Mysteries  
   
 https://github.com/Unity-Technologies/2d-extras  
   
