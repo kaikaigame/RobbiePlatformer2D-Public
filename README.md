@@ -17,7 +17,7 @@ https://github.com/Unity-Technologies/2d-extras
 My special thanks go to M-Studio  
 https://m-studio-m.github.io  
   
-Unity m_EditorVersion:  2021.1.20f1  
+Unity m_EditorVersion:  2021.2.0f1  
   
 KEYBOARD  
   
